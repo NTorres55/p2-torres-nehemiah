@@ -1,0 +1,36 @@
+/*{Colors -
+darkblue:  #2b2d79;
+gray: #E9E9F1
+white: #ffffff
+light blue: #82b5f0
+}*/
+
+.topwrapper {
+  max-width: 70%;
+  margin: auto;
+  background-color: #ffffff;
+  position: fixed;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #2b2d79;
+  position: fixed;
+  top: 75px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.navbar ul {
+  max-width: 70%;
+  margin: auto;
+}
+.navbar li {
+  display: inline-block;
+  color: #ffffff;
+  padding: 2% 2%;
+  text-align: justify;
+  text-decoration: none;
+}
+.hero-image {
+  
+}
