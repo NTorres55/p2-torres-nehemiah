@@ -4,18 +4,26 @@ gray: #E9E9F1
 white: #ffffff
 light blue: #82b5f0
 }*/
-
-.topwrapper {
-  max-width: 70%;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+/****** Start HEADER *********/
+.toplogo {
+  width: 75%;
   margin: auto;
   background-color: #ffffff;
-  position: fixed;
+  display: flex;
+}
+#logo img {
+  max-width: 275px;
 }
 .navbar {
-  overflow: hidden;
   background-color: #2b2d79;
-  position: fixed;
-  top: 75px;
   width: 100%;
   height: auto;
   text-align: center;
@@ -31,6 +39,32 @@ light blue: #82b5f0
   text-align: justify;
   text-decoration: none;
 }
-.hero-image {
-  
+.hero {
+  background-image: url("images/hero-img.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
 }
+.toptext {
+  margin: auto;
+  overflow: hidden;
+  max-width: 75%;
+  text-align: center;
+}
+h1 {
+  max-width: 70%;
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+  text-shadow: 3px 2px 1px #2b2d79, 5px 4px 1px #000000;
+  margin-top: 190px;
+  text-align: left;
+}
+.hero-button {
+  padding: 5px;
+  border-radius: 10px;
+  color: #82b5f0;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+/********** END HEADER ***************/
