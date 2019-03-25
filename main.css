@@ -60,11 +60,19 @@ h1 {
   margin-top: 190px;
   text-align: left;
 }
+button {
+  margin-top: 10px;
+}
 .hero-button {
   padding: 5px;
   border-radius: 10px;
   color: #82b5f0;
   font-weight: bold;
   background-color: #ffffff;
+  margin-right: 33%;
 }
-/********** END HEADER ***************/
+/********** START BODY ***************/
+.container {
+  max-width: 70%;
+  margin: auto;
+}
