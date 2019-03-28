@@ -41,7 +41,8 @@ html {
 }
 .hero {
   background-image: url("images/hero-img.jpg");
-  height: 100vh;
+  max-width: 100%;
+  height: 650px;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -72,7 +73,41 @@ button {
   margin-right: 33%;
 }
 /********** START BODY ***************/
+.offer {
+  background-color: lightgray;
+  max-width: 100%;
+  max-height: auto;
+}
 .container {
   max-width: 70%;
   margin: auto;
+  display: flex;
+  object-position: center;
+}
+.column {
+  padding: 15px;
+  max-width: 360px;
+  min-width: 300px;
+  display: grid;
+  text-align: center;
+}
+.left {
+  grid-column: 1;
+}
+.right {
+  margin-top: 30px;
+  grid-column: 2;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+    margin-top: 160px;
+  }
+  .flex-grid {
+    max-width: 80%;
+  }
+  .column {
+    max-width: 100%;
+    display: block;
+  }
 }
