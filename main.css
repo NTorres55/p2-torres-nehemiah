@@ -62,7 +62,7 @@ h1 {
   text-align: left;
 }
 button {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 .hero-button {
   padding: 5px;
@@ -74,7 +74,7 @@ button {
 }
 /********** START BODY ***************/
 .offer {
-  background-color: lightgray;
+  background-color: #E9E9F1;
   max-width: 100%;
   max-height: auto;
 }
@@ -82,7 +82,8 @@ button {
   max-width: 70%;
   margin: auto;
   display: flex;
-  object-position: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 .column {
   padding: 15px;
@@ -90,21 +91,37 @@ button {
   min-width: 300px;
   display: grid;
   text-align: center;
+  margin: auto;
 }
 .left {
+  margin-top: 25px;
   grid-column: 1;
 }
 .right {
   margin-top: 30px;
   grid-column: 2;
 }
-@media (max-width: 600px) {
+.stem-button {
+  padding: 5px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #82b5f0;
+  max-width: 100px;
+  margin: auto;
+  margin-top: 15px;
+}
+/***** Width LEss than 620px *****/
+@media (max-width: 620px) {
   h1 {
     font-size: 36px;
-    margin-top: 160px;
+    margin-top: 180px;
+    max-width: 90%;
   }
   .flex-grid {
     max-width: 80%;
+    display: flex;
+    text-align: center;
   }
   .column {
     max-width: 100%;
