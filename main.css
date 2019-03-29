@@ -11,6 +11,8 @@ light blue: #82b5f0
 }
 html {
   scroll-behavior: smooth;
+  font-family: 'Cabin', sans-serif;
+
 }
 /****** Start HEADER *********/
 .toplogo {
