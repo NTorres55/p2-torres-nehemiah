@@ -42,7 +42,7 @@ html {
 .hero {
   background-image: url("images/hero-img.jpg");
   max-width: 100%;
-  height: 650px;
+  height: 550px;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -81,6 +81,7 @@ button {
 .container {
   max-width: 70%;
   margin: auto;
+  padding: 25px 0;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -101,6 +102,9 @@ button {
   margin-top: 30px;
   grid-column: 2;
 }
+.portal-img {
+  border: 15px solid #2b2d79;
+}
 .stem-button {
   padding: 5px;
   border-radius: 10px;
@@ -111,10 +115,19 @@ button {
   margin: auto;
   margin-top: 15px;
 }
+/**** Footer ***********/
+.footer {
+  background-color: #cccce0;
+  color: #ffffff;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
 /***** Width LEss than 620px *****/
 @media (max-width: 620px) {
   h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-top: 180px;
     max-width: 90%;
   }
