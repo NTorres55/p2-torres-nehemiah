@@ -31,7 +31,7 @@ html {
   text-align: center;
 }
 .navbar ul {
-  max-width: 70%;
+  max-width: 75%;
   margin: auto;
 }
 .navbar li {
@@ -142,4 +142,27 @@ button {
     max-width: 100%;
     display: block;
   }
+}
+/****** ABOUT US PAGE ***********/
+.topimg {
+  position: relative;
+  text-align: center;
+}
+h2 {
+  text-decoration: underline;
+  margin: 10px 0;
+}
+.overtext img {
+  max-width: 100%;
+  margin: 10px 0;
+}
+.invest {
+  color: #ffffff;
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: -40px;
+  margin-right: 45px;
+  font-weight: bold;
+  text-shadow: 2px 2px 1px #2b2d79;
 }
