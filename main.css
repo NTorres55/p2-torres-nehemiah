@@ -166,3 +166,53 @@ h2 {
   font-weight: bold;
   text-shadow: 2px 2px 1px #2b2d79;
 }
+article {
+  float: left;
+  width: 67%;
+  grid-column: 1;
+  margin: auto;
+}
+.abtext {
+  max-width: 300px;
+  padding: 25px 0;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+}
+.raside  {
+  float: right;
+  width: 30%;
+  height: 250px;
+  min-width: 200px;
+  grid-column: 2;
+  margin: auto;
+}
+.about-aside p {
+  border: 35px solid #2b2d79;
+  text-decoration: underline;
+  margin: 5px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.grad-img {
+  max-width: 100%;
+  border: 15px solid #2b2d79;
+}
+.since {
+  padding: 20px 0;
+  text-shadow: 2px 2px 1px #ffffff;
+  background-color: #E9E9F1;
+  color: #000000;
+  font-weight: 600;
+  float: right;
+  width: 30%;
+  height: 125px;
+  min-width: 200px;
+  grid-column: 2;
+  margin: auto;
+}
+.since p {
+  max-width: 75%;
+  margin: auto;
+}
