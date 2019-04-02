@@ -125,6 +125,7 @@ button {
   bottom: 0;
   width: 100%;
   text-align: center;
+
 }
 /***** Width LEss than 620px *****/
 @media (max-width: 620px) {
@@ -227,4 +228,31 @@ article {
 .since p {
   max-width: 75%;
   margin: auto;
+}
+/******* join page css **************/
+.joinpage {
+  min-height: 600px;
+}
+.jointop {
+  width: 80%;
+  margin: auto;
+}
+.membertext {
+  width: 68%;
+  padding: 25px 0;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+}
+.membertext h2 {
+  margin-top: 45px;
+}
+.membertext p {
+  width: 400px;
+  margin: auto;
+}
+.join-img img {
+  max-width: 300px;
+  margin: auto;
+  border: 10px solid #E9E9F1;
 }
