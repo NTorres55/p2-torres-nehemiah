@@ -231,10 +231,10 @@ article {
 }
 /******* join page css **************/
 .joinpage {
-  min-height: 600px;
+  min-height: 800px;
 }
 .jointop {
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 .membertext {
@@ -255,4 +255,9 @@ article {
   max-width: 300px;
   margin: auto;
   border: 10px solid #E9E9F1;
+}
+
+.joinbottom {
+  width: 75%;
+  margin: auto;
 }
