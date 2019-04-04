@@ -117,7 +117,7 @@ button {
   margin: auto;
   margin-top: 15px;
 }
-/**** Footer ***********/
+/**** Footer ***********need to line up items and add test*/
 .footer {
   background-color: #cccce0;
   color: #ffffff;
@@ -125,7 +125,9 @@ button {
   bottom: 0;
   width: 100%;
   text-align: center;
-
+  display: inline-flex;
+  align-items: center;
+/* height: 50px;*/
 }
 /***** Width LEss than 620px *****/
 @media (max-width: 620px) {
