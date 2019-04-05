@@ -30,11 +30,11 @@ html {
   height: auto;
   text-align: center;
 }
-.navbar ul {
+.navbar nav {
   max-width: 75%;
   margin: auto;
 }
-.navbar li {
+.navbar a {
   display: inline-block;
   color: #ffffff;
   padding: 2% 2%;
