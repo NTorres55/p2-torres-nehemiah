@@ -133,6 +133,12 @@ button {
 }
 .footer-nav a {
   padding: 10px;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: #82b5f0;
+  background-color: white;
+  border-radius: 10px;
 }
 /***** Width LEss than 620px *****/
 @media (max-width: 620px) {
@@ -191,6 +197,16 @@ article {
   margin: auto;
   font-weight: bold;
   text-align: center;
+}
+.abtbtn {
+  padding: 5px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #82b5f0;
+  max-width: 100px;
+  margin: auto;
+  margin-top: 15px;
 }
 .raside  {
   float: right;
@@ -263,7 +279,6 @@ article {
   margin: auto;
   border: 10px solid #E9E9F1;
 }
-
 .joinbottom {
   width: 75%;
   margin: auto;
