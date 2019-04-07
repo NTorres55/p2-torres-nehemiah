@@ -1,4 +1,4 @@
-//variables
+//   Hamburger Menu
 var openMenu = document.getElementById('menu-open');
 var closeMenu = document.getElementById('menu-close');
 var menu = document.getElementById('mobile-nav');
@@ -32,11 +32,19 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
+    btnText.innerHTML = "Read More";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
     btnText.innerHTML = "Read Less";
     moreText.style.display = "inline";
   }
+}
+//****** Form for join *********//
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
 }

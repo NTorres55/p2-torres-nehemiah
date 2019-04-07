@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <div class="fullbody">
     <header>
         <div class="toplogo">
             <div id="logo">
@@ -40,23 +41,40 @@
         </div>
     </header>
 
-    <main class="joinpage">
-      <section class="jointop">
-        <div>
+    <main>
+      <section class="top-about">
+        <div class="container">
           <article class="membertext">
+            <div class="abtext">
             <h2>BE A MEMBER</h2>
             <p>There are many ways to support the NCSHP as we strive together to promote Latino education! We invite you to JOIN US and become a member of the NCSHP, a volunteer, or a corporate sponsor to support our mission! Please explore the opportunities below to discover how you can be a part of our mission!</p>
+            <button class="open-button" onclick="openForm()">JOIN US!</button>
+            <br><br>
+              <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  <h1>Login</h1>
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+
+                  <button type="submit" class="btn">Login</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+              </div>
+            </button>
           </article>
-            <br>
-          <article class="join-img">
-            <img src="images/join1.jpg" alt="Join1" title="Join Img 1"/>
-          </article>
+            <br><br>
+
+          <aside class="raside img1">
+            <img src="images/join1.jpg" id="memberimg" alt="Join1" title="Join Img 1"/>
+          </aside>
         </div>
       </section>
       <br>
       <br>
-      <section class="joinbottom">
-        <div>
+      <!--section class="joinbottom">
           <article class="join-img img2">
             <img src="images/join4.jpg" alt="Join4" title="Join Img 4"/>
           </article>
@@ -65,8 +83,7 @@
             <h2>BE A VOLUNTEER</h2>
             <p>Our volunteers help with outreach events, tutor students, serve on committees, and help with society operations. Many of the NCSHP’s programs are run by our volunteers and they are essential to the success of our organization.</p>
           </article>
-        </div>
-      </section>
+      </section-->
 
     </main>
 
@@ -82,7 +99,8 @@
         </nav>
       </div>
     </footer>
-
+    <script src="main.js"></script>
+  </div>
   </body>
 
 </html>
