@@ -121,13 +121,18 @@ button {
 .footer {
   background-color: #cccce0;
   color: #ffffff;
-  left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
-  display: inline-flex;
-  align-items: center;
-/* height: 50px;*/
+  display: inline-flex;;
+  height: 100px;
+}
+.footer-nav {
+  text-align: center;
+  margin: auto;
+}
+.footer-nav a {
+  padding: 10px;
 }
 /***** Width LEss than 620px *****/
 @media (max-width: 620px) {
