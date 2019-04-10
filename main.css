@@ -276,8 +276,12 @@ article {
   width: 250px;
 }
 /* Form for Join Page **/
+h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
 .open-button {
-  padding: 5px;
+  padding: 1px 2px;
   border-radius: 10px;
   color: #ffffff;
   font-weight: bold;
@@ -294,6 +298,28 @@ article {
   max-width: 300px;
   padding: 10px;
   background-color: white;
+}
+.form-container input[type=text], .form-container input[type=name] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 2px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.form-container .btn {
+  background-color: #82b5f0;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+.form-container .cancel {
+  color: #ffffff;
+  background-color: #2b2d79;
 }
 @media (max-width: 1350px) {
 
